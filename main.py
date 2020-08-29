@@ -57,8 +57,8 @@ while True:
     # Detecting Mask in the frames
     mask = maskCascade.detectMultiScale(imageGray, scaleFactor=1.1, minNeighbors=2)
 
-    # Checking if faces are
-    print(face, mask)
+    # Checking if faces and masks are found
+    #print(face, mask)
 
     # If no Face is Found
     if face==():
